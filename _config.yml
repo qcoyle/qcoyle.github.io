@@ -54,4 +54,4 @@ plugins:
 #   - vendor/ruby/
 markdown: kramdown
 
-theme: jekyll-theme-hydure
+theme: jekyll-theme-dinky
