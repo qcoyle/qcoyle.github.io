@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Test post 1"
+date:   2021-09-23 15:34:37 -0500
+categories: jekyll update
+---
+Test post content
+
+Remember to name post files in the following format:
+
+`YEAR-MONTH-DAY-title.markdown`
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers.
+
+Code snippet examples:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+[Hyperlink][hyperlink-example] example
+
+[hyperlink-example]: https://google.com
