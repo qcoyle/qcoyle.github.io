@@ -53,6 +53,15 @@ span {
     color: white;
 }
 
+.button3 {
+    border: 2px solid green
+}
+
+.button3:hover {
+    background-color: green;
+    color: white;
+}
+
 .input {
     text-align: center;
 }
