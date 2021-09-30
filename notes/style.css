@@ -12,9 +12,10 @@ body {
 }
 
 h1,
-h2 {
+h3 {
     color: rgba(13, 60, 104, 0.836);
     font-family: Raleway;
+    margin: 10px;
 }
 
 .button {
