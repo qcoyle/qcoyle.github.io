@@ -11,7 +11,8 @@ body {
     text-align: center;
 }
 
-h1 {
+h1,
+h2 {
     color: rgba(13, 60, 104, 0.836);
     font-family: Raleway;
 }
@@ -29,27 +30,11 @@ h1 {
     cursor: pointer;
     margin: 4px auto;
     border-radius: 3px;
-    display: inline;
 }
 
-.button1:hover {
-    background-color: rgb(187, 0, 0);
-    color: black;
-}
-
-.button2:hover {
-    background-color: purple;
+.button:hover {
+    background-color: rgb(7, 107, 7);
     color: white;
-}
-
-.button3:hover {
-    background-color: green;
-    color: white;
-}
-
-a {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a:link {
