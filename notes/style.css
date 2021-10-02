@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+html {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background: linear-gradient(0deg, #141E30, #bdd6f3);
     margin: 0;
