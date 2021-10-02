@@ -36,7 +36,7 @@ h1 {
     border-radius: 3px;
     display: inline;
     transition-property: background-color;
-    transition-duration: 0.75ms;
+    transition-duration: 750ms;
 }
 
 .button1:hover {

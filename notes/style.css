@@ -37,7 +37,7 @@ h3 {
     margin: 4px auto;
     border-radius: 3px;
     transition-property: background-color;
-    transition-duration: 0.75ms;
+    transition-duration: 750ms;
 }
 
 .button:hover {
