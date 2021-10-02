@@ -36,6 +36,8 @@ h3 {
     cursor: pointer;
     margin: 4px auto;
     border-radius: 3px;
+    transition-property: background-color;
+    transition-duration: 1s;
 }
 
 .button:hover {

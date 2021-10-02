@@ -35,6 +35,8 @@ h1 {
     margin: 4px auto;
     border-radius: 3px;
     display: inline;
+    transition-property: background-color;
+    transition-duration: 1s;
 }
 
 .button1:hover {
