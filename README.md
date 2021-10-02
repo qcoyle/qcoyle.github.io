@@ -8,9 +8,10 @@ File names: Separate words with hyphens rather than underscores: `my-file.html` 
 
 ### Conventions
 - Title using Title heading
+- Sources at bottom of page
 - Linked of contents - no numbers
 - Headings
-  - Heading 1 for sections
+  - Heading 1 for sections. Only the first word capitalized
   - Heading 2 for terms, in **bold**
   - Heading 3 for code (in a code font i.e. `courier new`)
 - 2 breaks after each section heading
@@ -20,7 +21,7 @@ File names: Separate words with hyphens rather than underscores: `my-file.html` 
 
 #### Before export
 1. Check that no terms missed headings
-2. Refresh table of contents
+2. Refresh table of contents. Look it over
 3. Add page numbers
 
 #### After export
