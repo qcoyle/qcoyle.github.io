@@ -32,3 +32,4 @@ File + directory names: Separate words with hyphens rather than underscores: `my
 3. Add `<title>` to first element of `<head>` as file title
 4. Remove `https://www.google.com/url?q=` and `&amp` data from all url's
 5. Save without formatting to reduce file size: Command Palette --> File: Save without Formatting
+6. Add reference link + button to `notes` webpage
