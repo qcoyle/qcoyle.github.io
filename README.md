@@ -6,7 +6,7 @@ File + directory names: Separate words with hyphens rather than underscores: `my
 
 ## Notes files
 
-### Conventions
+### Staying Consistent
 - Title using Title heading
 - Linked of contents - no numbers
 - Headings
@@ -17,8 +17,11 @@ File + directory names: Separate words with hyphens rather than underscores: `my
 - 1 break after each term heading
 
 #### Sources
-- If only one source, list below title. No header
-- If multiple sources, list at bottom with a section header
+- If only one source, list below title. No header. `Source: Source Name`
+- If multiple sources, list at bottom under a `Sources` section 
+  - Bulleted list
+  - List the whole url (`https://...`)
+  - No breaks between bullets
 
 ### Exporting from Google docs
 
