@@ -25,7 +25,7 @@ body img {
 }
 
 h1 {
-    color: rgba(13, 60, 104, 0.836);
+    color: rgb(13, 60, 104);
     font-family: Raleway;
 }
 
@@ -44,7 +44,7 @@ h1 {
     display: inline;
     transition-property: background-color;
     transition-duration: 750ms;
-    filter: drop-shadow(-10px 5px 0.2rem black);
+    filter: drop-shadow(-10px 5px .2rem black);
 }
 
 .button1:hover {
@@ -73,4 +73,8 @@ a:link {
 
 a:visited {
     color: rgb(188, 170, 218)
+}
+
+abbr {
+    text-decoration: underline;
 }
