@@ -25,7 +25,6 @@ File + directory names: Separate words with hyphens rather than underscores: `my
 #### Before export
 1. Check that no terms missed headings
 2. Refresh table of contents. Look it over
-3. Add page numbers
 
 #### After export
 1. Create directory, replace-file-title-spaces-with-hyphens
