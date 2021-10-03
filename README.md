@@ -4,17 +4,28 @@
 
 File + directory names: Separate words with hyphens rather than underscores: `my-file.html` and not `my_file.html`. [Mozilla docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files#an_aside_on_casing_and_spacing)
 
+<br>
+
 ## Notes files
 
 ### Staying Consistent
+#### Headings
 - Title using Title heading
 - Linked of contents - no numbers
 - Headings
   - Heading 1 for sections. Only the first word capitalized
   - Heading 2 for terms, in **bold**
   - Heading 3 for code (in a code font i.e. `courier new`)
+
+#### Newlines
 - 2 breaks after each section heading
 - 1 break after each term heading
+
+#### `Code blocks`
+- One line: in `courier new`
+- Multiple lines: 
+  - Pasted from editor (i.e. VS Code)
+  - Indented to line up with the line or bullet above
 
 #### Sources
 - If only one source, list below title. No header. `Source: Source Name`
@@ -23,7 +34,9 @@ File + directory names: Separate words with hyphens rather than underscores: `my
   - List the whole url (`https://...`)
   - No breaks between bullets
 
-### Exporting from Google docs
+<br>
+
+### Exporting html from Google docs
 
 #### Before export
 1. Check that no terms missed headings
