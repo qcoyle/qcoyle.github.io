@@ -53,6 +53,12 @@ video {
     margin: 1px;
 }
 
+@media screen and (max-width: 480px) {
+    .light {
+        color: lightblue
+    }
+}
+
 iframe {
     margin: 20px;
 }
