@@ -53,7 +53,10 @@ video {
     margin: 1px;
 }
 
-@media screen and (max-width: 480px) {
+
+/* iphones */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
     .light {
         color: lightblue
     }
