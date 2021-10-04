@@ -38,6 +38,7 @@ p {
     color: rgb(13, 60, 104);
     font-family: Raleway;
     font-size: 18px;
+    line-height: 1.5;
 }
 
 p a:link {
@@ -49,11 +50,11 @@ p a:visited {
 }
 
 video {
-    margin: 10px
+    margin: 1px;
 }
 
 iframe {
-    margin: 20px
+    margin: 20px;
 }
 
 a:link {

@@ -63,6 +63,10 @@ h1 {
     color: white;
 }
 
+.button4:hover {
+    background-color: darkgoldenrod;
+}
+
 a {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
