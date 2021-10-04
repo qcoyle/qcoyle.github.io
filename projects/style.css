@@ -5,29 +5,33 @@
 
 html {
     height: 100%;
+    margin: 0;
 }
 
 body {
     background: linear-gradient(0deg, #141E30, #bdd6f3);
     background-attachment: fixed;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    margin: auto;
     text-align: center;
-    height: 100%;
-    width: auto;
-    min-width: 500px;
-    overflow: hidden;
 }
 
-body img {
-    max-width: 600px;
-    min-height: 300px;
-    height: auto;
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-h1 {
+h1,
+h3 {
     color: rgb(13, 60, 104);
     font-family: Raleway;
+    margin: 10px;
+}
+
+iframe {
+    margin: 20px
 }
 
 .button {
@@ -39,33 +43,18 @@ h1 {
     display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
-    cursor: pointer;
     margin: 4px 10px;
+    cursor: pointer;
+    margin: 4px auto;
     border-radius: 3px;
-    display: inline;
     transition-property: background-color;
     transition-duration: 750ms;
-    filter: drop-shadow(-10px 5px .2rem black);
+    filter: drop-shadow(-10px 5px 0.2rem black);
 }
 
-.button1:hover {
-    background-color: rgb(187, 0, 0);
-    color: black;
-}
-
-.button2:hover {
-    background-color: rgb(165, 10, 165);
+.button:hover {
+    background-color: rgb(7, 107, 7);
     color: white;
-}
-
-.button3:hover {
-    background-color: green;
-    color: white;
-}
-
-a {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a:link {
@@ -74,8 +63,4 @@ a:link {
 
 a:visited {
     color: rgb(188, 170, 218)
-}
-
-abbr {
-    text-decoration: underline;
 }
