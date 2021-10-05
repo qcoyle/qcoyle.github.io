@@ -41,11 +41,15 @@ File + directory names: Separate words with hyphens rather than underscores: `my
 #### Before export
 1. Check that no terms missed headings
 2. Refresh table of contents. Look it over
+3. Export raw html file
 
-#### After export
+#### After export - quinncoyle.com
 1. Create directory, replace-file-title-spaces-with-hyphens
 2. Add raw html (as `index.html`) and images into new directory
 3. Add `<title>` to first element of `<head>` as file title
-4. Remove `https://www.google.com/url?q=` and `&amp` data from all url's
+4. Remove `https://www.google.com/url?q=` and `&amp` trackers from all url's
 5. Save without formatting to reduce file size: Command Palette --> File: Save without Formatting
 6. Add reference link + button to `notes` webpage
+
+#### After export - Google drive
+1. Move Google drive file into published folder
