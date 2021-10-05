@@ -44,7 +44,7 @@ File + directory names: Separate words with hyphens rather than underscores: `my
 3. Export raw html file
 
 #### After export - quinncoyle.com
-1. Create notes directory (i.e. `mkdir learn-git`)
+1. Create notes directory (i.e. `mkdir notes/learn-git`)
 2. Add raw html (as `index.html`) and images into new directory
 3. Add `<title>` to first element of `<head>` as file title
 4. Remove `https://www.google.com/url?q=` and `&amp` trackers from all url's
