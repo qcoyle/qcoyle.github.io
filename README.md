@@ -13,8 +13,8 @@ File + directory names: Separate words with hyphens rather than underscores: `my
 - Title using Title heading
 - Linked of contents - no numbers
 - Headings
-  - Heading 1 for sections. Only the first word capitalized
-  - Heading 2 for terms, in **bold**
+  - Heading 1 for sections. Uses title capitalization
+  - Heading 2 for terms, in **bold** (so that I know it's been marked a header). Only first word capitalized
   - Heading 3 for code (in a code font i.e. `courier new`)
 
 #### Newlines
