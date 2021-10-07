@@ -51,5 +51,5 @@ File + directory names: Separate words with hyphens rather than underscores: `my
 5. Save without formatting to reduce file size: Command Palette --> File: Save without Formatting
 6. Add reference link + button to `notes/index.html`
 
-#### After export - Google drive
+#### After export - Drive
 1. Move Google drive file into published folder
