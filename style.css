@@ -27,22 +27,6 @@ body img {
     height: auto;
 }
 
-@media only screen and (min-width: 768px) {
-    body img {
-        max-width: 650px;
-        max-height: 100vh;
-        margin: auto;
-        height: auto;
-    }
-    .buttons {
-        display: flex;
-    }
-    .button {
-        display: inline;
-        padding: 15px 32px;
-    }
-}
-
 h1 {
     color: rgb(13, 60, 104);
     font-family: Raleway;
@@ -59,7 +43,7 @@ h1 {
 
 .buttons {
     display: grid;
-    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 
 .button {
@@ -119,4 +103,20 @@ abbr {
 hr {
     background-color: white;
     margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    body img {
+        max-width: 650px;
+        max-height: 100vh;
+        margin: auto;
+        height: auto;
+    }
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        padding: 15px 32px;
+    }
 }
