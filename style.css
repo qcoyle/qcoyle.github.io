@@ -34,6 +34,13 @@ body img {
         margin: auto;
         height: auto;
     }
+    .buttons {
+        display: flex;
+    }
+    .button {
+        display: inline;
+        padding: 15px 32px;
+    }
 }
 
 h1 {
@@ -50,22 +57,26 @@ h1 {
     padding: 0;
 }
 
+.buttons {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+}
+
 .button {
     background-color: rgb(255, 255, 255);
     border: black;
     color: black;
-    padding: 15px 25px;
+    padding: 15px 32px;
     text-decoration: none;
-    display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     cursor: pointer;
     margin: 4px 10px;
     border-radius: 3px;
-    display: inline;
     transition-property: background-color;
     transition-duration: 750ms;
     filter: drop-shadow(-10px 5px .2rem black);
+    grid-column: 2 / span 1;
 }
 
 .button1:hover {
