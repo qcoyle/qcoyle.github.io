@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-html {
-    height: 100%;
-}
-
 body {
     background: linear-gradient(0deg, #141E30, #bdd6f3);
     background-attachment: fixed;
@@ -16,12 +12,14 @@ body {
     height: 100%;
     width: auto;
     min-width: 500px;
-    overflow: hidden;
+    display: grid;
+    height: 50%;
 }
 
 body img {
-    max-width: 600px;
-    min-width: 150px;
+    max-width: 50%;
+    max-height: 100vh;
+    margin: auto;
     height: auto;
 }
 
@@ -43,7 +41,7 @@ h1 {
     background-color: rgb(255, 255, 255);
     border: black;
     color: black;
-    padding: 15px 32px;
+    padding: 15px 25px;
     text-decoration: none;
     display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
