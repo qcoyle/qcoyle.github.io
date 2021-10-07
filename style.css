@@ -29,7 +29,7 @@ body img {
 
 @media only screen and (min-width: 768px) {
     body img {
-        max-width: 50%;
+        max-width: 650px;
         max-height: 100vh;
         margin: auto;
         height: auto;
@@ -107,4 +107,5 @@ abbr {
 
 hr {
     background-color: white;
+    margin: 0;
 }
