@@ -30,6 +30,15 @@ h1 {
     font-family: Raleway;
 }
 
+.row {
+    justify-content: center;
+}
+
+[class*="col-"] {
+    margin: 0;
+    padding: 0;
+}
+
 .button {
     background-color: rgb(255, 255, 255);
     border: black;
@@ -82,4 +91,8 @@ a:visited {
 
 abbr {
     text-decoration: underline;
+}
+
+hr {
+    background-color: white;
 }
