@@ -11,8 +11,8 @@ html {
 body {
     background: linear-gradient(0deg, #141E30, #bdd6f3);
     background-attachment: fixed;
-    padding: 0;
     margin: auto;
+    padding: 0;
     text-align: center;
     height: 100%;
     width: auto;
