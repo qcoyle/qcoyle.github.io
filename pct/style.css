@@ -1,56 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    height: 100%;
-    margin: 0;
-}
-
 body {
     background-image: url("https://lh3.googleusercontent.com/pw/AM-JKLUUhPb9ti6Ub6BLjo_EhiD3xmtzRc6jyhIRMKC7iIrlLKem3naaSev5KUCMnv-O5r7b44c1Aq3RQ8hQflMmXq-rVfnrOaJK7XAUDQV73B9-zk1ei49LFosW5TMzCPkAL7XHKzi1XojjFQ7NPIOQ2DPN=w1372-h882-no?authuser=0");
     background-size: cover;
-    margin: 0;
-    padding: 0;
-    margin: auto;
-    text-align: center;
-}
-
-h1,
-h3 {
-    color: rgb(13, 60, 104);
-    font-family: Raleway;
-    margin: 10px;
 }
 
 .button {
     background-color: rgb(102, 93, 93);
     border: white;
     color: white;
-    padding: 15px 32px;
-    text-decoration: none;
     display: block;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
-    margin: 4px 10px;
-    cursor: pointer;
     margin: 4px auto;
-    border-radius: 3px;
-    transition-property: background-color;
-    transition-duration: 750ms;
-    filter: drop-shadow(-10px 5px 0.2rem black);
 }
 
 .button:hover {
     background-color: rgb(165, 10, 165);
     color: white;
-}
-
-a:link {
-    color: white;
-}
-
-a:visited {
-    color: rgb(101, 16, 238)
 }
