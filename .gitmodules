@@ -1,0 +1,3 @@
+[submodule "projects/clean-links"]
+	path = projects/clean-links
+	url = https://github.com/qcoyle/clean-links.git
