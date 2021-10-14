@@ -1,4 +1,4 @@
-import { features } from './photos.js';
+import { features } from './popup-data.js';
 
 mapboxgl.accessToken = 'pk.eyJ1IjoicWNveWxlIiwiYSI6ImNrdXBydnF0ZDBscm4yeHBnZmkwdm15MmEifQ.xhgKU0DtBHlzyuwygiseOA';
 const map = new mapboxgl.Map({
