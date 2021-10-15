@@ -10,7 +10,7 @@ html {
 
 img {
     max-width: 100%;
-    /* max-height: 100vh; */
+    max-height: 20vh;
     margin: auto;
     height: auto;
 }
