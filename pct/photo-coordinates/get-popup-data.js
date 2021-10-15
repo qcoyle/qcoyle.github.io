@@ -99,10 +99,3 @@ function parseGPS(lat, lon) {
 }
 
 run("./photos-test");
-
-// console.log("did this go?");
-
-// fs.writeFile("photo-data.json", JSON.stringify(photos), function(err) {
-//     if (err) throw err;
-//     console.log('complete');
-// });
