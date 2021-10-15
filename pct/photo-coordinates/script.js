@@ -5,7 +5,7 @@ const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/outdoors-v11',
     center: [-118.3010148, 36.5784983],
-    zoom: 6
+    zoom: 5.5
 });
 
 map.on('load', () => {
