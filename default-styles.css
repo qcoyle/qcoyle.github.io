@@ -54,6 +54,7 @@ abbr {
 footer a {
     font-family: Georgia, Times, serif;
     text-decoration: underline;
+    text-align: center;
 }
 
 footer a:link {
