@@ -1,0 +1,40 @@
+[{
+        "type": "Feature",
+        "properties": {
+            "description": "<img src='./photos-test/IMG_0001.JPG' width='100%'><p>Altitude = 428ft</p>",
+            "icon": "attraction-15"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-117.08328888888889,
+                32.94131944444444
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "description": "<img src='./photos-test/IMG_0002.JPG' width='100%'><p>Altitude = 252ft</p>",
+            "icon": "attraction-15"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-117.08332777777777,
+                32.94144444444444
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "description": "<img src='./photos-test/IMG_0004.JPG' width='100%'><p>Altitude = 2538ft</p>",
+            "icon": "attraction-15"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-116.47410555555555,
+                32.60816944444444
+            ]
+        }
+    }
+]
