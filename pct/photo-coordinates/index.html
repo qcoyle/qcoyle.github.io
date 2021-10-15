@@ -27,13 +27,29 @@
 <body>
     <style>
         .mapboxgl-popup {
-            font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            font: 20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        
+        .mapboxgl-popup-content {
+            width: 400px;
+        }
+        
+        @media only screen and (min-width: 768px) {
+            .mapboxgl-popup-content {
+                width: 450px;
+            }
+        }
+        
+        .mapboxgl-popup-content img {
+            width: 100%;
+            /* max-width: 6000px; */
         }
     </style>
     <div id="map"></div>
     <script type="module" src="script.js"></script>
     <div class="fixed-bottom">
-        <footer class="bg-clear" style="text-align: center">
+        <footer class="bg-clear" style="text-align: center;">
             <a href="https://github.com/qcoyle/quinncoyle.com " target=”_blank” style="color:black">Site code</a>
         </footer>
     </div>
