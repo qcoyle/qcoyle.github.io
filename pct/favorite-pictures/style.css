@@ -1,5 +1,9 @@
-body {
-    color: black;
+.carousel-inner {
+    background-color: black;
+}
+
+html {
+    background-color: black;
 }
 
 img {
