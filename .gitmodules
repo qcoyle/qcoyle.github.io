@@ -1,3 +1,6 @@
 [submodule "projects/clean-links"]
 	path = projects/clean-links
 	url = https://github.com/qcoyle/clean-links.git
+[submodule "projects/airplane-history"]
+	path = projects/airplane-history
+	url = https://github.com/qcoyle/airplane-history.git
