@@ -51,6 +51,11 @@ abbr {
     margin: 0;
 }
 
+footer p {
+    font-family: Georgia, Times, serif;
+    color: white;
+}
+
 footer a {
     font-family: Georgia, Times, serif;
     text-decoration: underline;
