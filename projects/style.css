@@ -14,7 +14,6 @@ h1 {
 h2 {
     color: rgb(13, 60, 104);
     font-family: Raleway;
-    padding-top: 70px;
 }
 
 p {
@@ -66,4 +65,8 @@ li {
 .button:hover {
     background-color: grey;
     color: white;
+}
+
+hr {
+    margin-top: 40px;
 }
