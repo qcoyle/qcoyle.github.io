@@ -4,3 +4,6 @@
 [submodule "projects/airplane-history"]
 	path = projects/airplane-history
 	url = https://github.com/qcoyle/airplane-history.git
+[submodule "projects/see-your-plane"]
+	path = projects/see-your-plane
+	url = https://github.com/qcoyle/see-your-plane.git

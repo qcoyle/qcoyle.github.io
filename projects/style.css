@@ -9,11 +9,6 @@ h1 {
     margin: 0;
 }
 
-h2,
-#hyperlinks {
-    padding-top: 10px;
-}
-
 h2 {
     color: rgb(13, 60, 104);
     font-family: Raleway;
@@ -33,6 +28,18 @@ p a:link {
 
 p a:visited {
     color: rgb(61, 5, 151)
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+    display: inline-block;
+}
+
+li {
+    color: rgb(13, 60, 104);
+    font-family: Raleway;
+    font-size: 18px;
 }
 
 .button {
