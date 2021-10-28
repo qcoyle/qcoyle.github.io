@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Age Tool</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <h1>Age level calculator</h1>
+    <div id="app">
+        <div v-if="!submitted">
+            <form>
+                <label for="age">How old are you?</label>
+                <input type="text" value="age" v-model="age" />
+                <input type="submit" v-on:click="submitted = true">
+            </form>
+        </div>
+        <br>
+        <span>Change Level:</span>
+        <select v-model="ageLevel">
+            <option>Child</option>
+            <option>Young adult</option>
+            <option>Adult</option>
+            <option>Senior</option>
+        </select>
+        <p v-if="!isNaN(parseInt(age))">You are at least {{ age }} years old. You are a {{ ageLevel }}.</p>
+    </div>
+</body>
+
+</html>
