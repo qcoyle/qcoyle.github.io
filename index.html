@@ -11,9 +11,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="default-styles.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+    <script src="app.js" defer></script>
 </head>
 
 <body>
+    <br>
+    <div id="admin-login" class="text-right">
+        <button type="button" class="btn btn-dark" v-if="!loggedIn" onclick="location.href='admin-login/index.html';">Admin Login</button>
+        <button type="button" class="btn btn-dark" v-if="loggedIn" onclick="location.href='';">Your Profile</button>
+    </div>
     <h1>Welcome!</h1>
     <img src="https://lh3.googleusercontent.com/pw/AM-JKLV-fGeX2XX2FrUA7nnhYfifBIuwNzCavXNAGBDnkZr0Hz4qE12x5fiXhlrSIi9Iq7Uj6irCLTOTuBhIm9w-70Y2_qpsI9Z0kWnDEeYVD_bDxyuWmLgjFVn0_fdhTiNbo0SHydc8fF3jYdNptNFBrb8_=w1710-h1282-no?authuser=0" width="800" height="500"
         alt="Canyonlands">
