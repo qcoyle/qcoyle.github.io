@@ -33,3 +33,17 @@ const app = new Vue({
         }
     }
 });
+
+
+
+const app = new Vue({
+    el: "#app",
+    data: {
+        hoursStudied: 300
+    },
+    methods: {
+        resetProgress: function() {
+            this.hoursStudied = 0;
+        }
+    }
+});
