@@ -25,6 +25,7 @@ p {
 
 p a:link {
     color: blue;
+    text-decoration: underline;
 }
 
 p a:visited {
