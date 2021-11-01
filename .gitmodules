@@ -7,3 +7,6 @@
 [submodule "projects/see-your-plane"]
 	path = projects/see-your-plane
 	url = https://github.com/qcoyle/see-your-plane.git
+[submodule "projects/books"]
+	path = projects/books
+	url = https://github.com/qcoyle/books.git
