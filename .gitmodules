@@ -10,3 +10,6 @@
 [submodule "projects/books"]
 	path = projects/books
 	url = https://github.com/qcoyle/books.git
+[submodule "projects/reading-list"]
+	path = projects/reading-list
+	url = https://github.com/qcoyle/reading-list.git
