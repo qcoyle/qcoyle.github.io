@@ -16,28 +16,26 @@
 
 <body>
     <div id="app">
-        <h1>Admin Login</h1>
+        <h1>quinncoyle.com login page</h1>
         <div class="user">
             <div class="text-center">
                 <div class="text-center">
                     <img src="/static/favicon.png" alt="profile picture">
                 </div>
-                <h3>{{ siteName }}</h3>
             </div>
-            <div class="site-description" v-if="siteDescription">
-                <em>Site description: </em> {{ siteDescription }}
-            </div>
+            <br>
+            <form class="settings">
+                <label for="username">Username</label>
+                <input type="text" value="username" autocomplete="on" v-model="username" />
+                <label for="password">Password</label>
+                <input type="password" value="password" autocomplete="on" v-model="password" />
+                <br>
+                <br>
+                <div>
+                    <button type="button" class="button btn-primary" v-on:click="login($event)">Let's Go!</button>
+                </div>
+            </form>
         </div>
-        <form class="settings">
-            <label for="username">Username</label>
-            <input type="text" value="username" placeholder=" username" autocomplete="on" v-model="username" />
-            <label for="password">Password</label>
-            <input type="password" value="password" placeholder=" password" autocomplete="on" v-model="password" />
-            <div>
-                <button type="button" class="button btn-primary" onclick="location.href='/';">Let's Go!</button>
-            </div>
-        </form>
-    </div>
 </body>
 
 </html>

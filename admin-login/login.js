@@ -7,15 +7,10 @@ const app = new Vue({
         password: "",
         loggedIn: false
     },
-    computed: {
-        login: function() {
-            if (loggedIn) {
-                login();
-            }
+    methods: {
+        login: function(event) {
+            event.preventDefault();
+            window.alert("ERROR: Invalid Username/Password");
         }
     }
 });
-
-const login = () => {
-    console.log("We're logged in!")
-}
