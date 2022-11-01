@@ -5,7 +5,7 @@ You have some errors, warnings, or alerts. If you are using reckless mode, turn 
 * WARNINGs: 1
 * ALERTS: 3
 
-Conversion time: 2.213 seconds.
+Conversion time: 2.202 seconds.
 
 
 Using this Markdown file:
@@ -18,7 +18,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Mon Oct 31 2022 22:59:02 GMT-0700 (PDT)
+* Mon Oct 31 2022 23:29:09 GMT-0700 (PDT)
 * Source doc: Exercise Science
 
 WARNING:
@@ -83,7 +83,7 @@ Table of Contents
   - [Aerobic deficiency syndrome {#aerobic-deficiency-syndrome}](#aerobic-deficiency-syndrome-aerobic-deficiency-syndrome)
 - [Intensity Zones {#intensity-zones}](#intensity-zones-intensity-zones)
   - [Intensity Zone Model {#intensity-zone-model}](#intensity-zone-model-intensity-zone-model)
-  - [Heart rate vs. intensity](#heart-rate-vs-intensity)
+  - [Heart rate vs. intensity {#heart-rate-vs-intensity}](#heart-rate-vs-intensity-heart-rate-vs-intensity)
   - [Summary of the Zones {#summary-of-the-zones}](#summary-of-the-zones-summary-of-the-zones)
   - [Recovery Zone {#recovery-zone}](#recovery-zone-recovery-zone)
   - [Zone 1 {#zone-1}](#zone-1-zone-1)
@@ -419,7 +419,7 @@ Consists of the following 3 components:
 * You may see other systems ranging from 3 zones to 7 zones
 
 
-### Heart rate vs. intensity
+### Heart rate vs. intensity {#heart-rate-vs-intensity}
 
 
 
