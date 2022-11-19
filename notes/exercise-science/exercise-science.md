@@ -29,17 +29,6 @@ You have some equations: look for ">>>>>  gd2md-html alert:  equation..." in out
 ----->
 
 
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 3.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-
 ## Exercise Science
 
 Table of Contents
@@ -61,8 +50,8 @@ Table of Contents
 - [Performance Tripod {#performance-tripod}](#performance-tripod-performance-tripod)
   - [Movement Economy {#movement-economy}](#movement-economy-movement-economy)
   - [Lactate Threshold {#lactate-threshold}](#lactate-threshold-lactate-threshold)
-  - [VO2 Max {#vo2-max}](#vo2-max-vo2-max)
-  - [VO2 Max misunderstandings {#vo2-max-misunderstandings}](#vo2-max-misunderstandings-vo2-max-misunderstandings)
+  - [VO<sub>2 </sub>Max {#vo2-max}](#vosub2-submax-vo2-max)
+  - [VO<sub>2 </sub>Max misunderstandings {#vo2-max-misunderstandings}](#vosub2-submax-misunderstandings-vo2-max-misunderstandings)
 - [Metabolic Terminology {#metabolic-terminology}](#metabolic-terminology-metabolic-terminology)
   - [Metabolism {#metabolism}](#metabolism-metabolism)
   - [Mitochondria {#mitochondria}](#mitochondria-mitochondria)
