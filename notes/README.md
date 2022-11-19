@@ -6,6 +6,8 @@ In google docs:
 In webpage directory:
 * cd file-name.md
 * touch file-name.md
+* Paste the contents in
+* Find and replace: ` \{(?<=\{).*?(?=\})\}` --> ""
 * Find the [TOC] tag. Command pallete --> Markdown Table of Contents
 
 In index.html:

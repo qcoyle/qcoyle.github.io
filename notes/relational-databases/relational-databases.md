@@ -10,109 +10,109 @@
 
 
 - [Relational Databases](#relational-databases)
-- [General Terminology {#general-terminology}](#general-terminology-general-terminology)
-  - [Database {#database}](#database-database)
-  - [Database vs spreadsheet {#database-vs-spreadsheet}](#database-vs-spreadsheet-database-vs-spreadsheet)
-  - [Database management system (DBMS) {#database-management-system-dbms}](#database-management-system-dbms-database-management-system-dbms)
-  - [Records {#records}](#records-records)
-  - [Columns {#columns}](#columns-columns)
-  - [Relational database {#relational-database}](#relational-database-relational-database)
-  - [Relational database management system (RDBMS) {#relational-database-management-system-rdbms}](#relational-database-management-system-rdbms-relational-database-management-system-rdbms)
-  - [Relational database structure {#relational-database-structure}](#relational-database-structure-relational-database-structure)
-  - [Commitment {#commitment}](#commitment-commitment)
-  - [ACID {#acid}](#acid-acid)
-  - [Relational database rules {#relational-database-rules}](#relational-database-rules-relational-database-rules)
-  - [Locking {#locking}](#locking-locking)
-  - [SQL {#sql}](#sql-sql)
-  - [Key {#key}](#key-key)
-  - [Primary key {#primary-key}](#primary-key-primary-key)
-  - [Composite primary key {#composite-primary-key}](#composite-primary-key-composite-primary-key)
-  - [Relationships {#relationships}](#relationships-relationships)
-  - [Stored procedures {#stored-procedures}](#stored-procedures-stored-procedures)
-  - [Unstructured data {#unstructured-data}](#unstructured-data-unstructured-data)
-  - [MySQL {#mysql}](#mysql-mysql)
-  - [PostgreSQL {#postgresql}](#postgresql-postgresql)
-  - [SQLite {#sqlite}](#sqlite-sqlite)
-  - [Benefits of using a dedicated database server {#benefits-of-using-a-dedicated-database-server}](#benefits-of-using-a-dedicated-database-server-benefits-of-using-a-dedicated-database-server)
-  - [OracleDB {#oracledb}](#oracledb-oracledb)
-  - [SQL Server {#sql-server}](#sql-server-sql-server)
-  - [NoSQL {#nosql}](#nosql-nosql)
-  - [Considerations when selecting a database {#considerations-when-selecting-a-database}](#considerations-when-selecting-a-database-considerations-when-selecting-a-database)
-  - [SQL vs. NoSQL databases {#sql-vs-nosql-databases}](#sql-vs-nosql-databases-sql-vs-nosql-databases)
-  - [Autonomous database {#autonomous-database}](#autonomous-database-autonomous-database)
-- [Database Design {#database-design}](#database-design-database-design)
-  - [Database schema {#database-schema}](#database-schema-database-schema)
-  - [To consider when designing a database {#to-consider-when-designing-a-database}](#to-consider-when-designing-a-database-to-consider-when-designing-a-database)
-  - [Popular database schema design software {#popular-database-schema-design-software}](#popular-database-schema-design-software-popular-database-schema-design-software)
-  - [Information schema {#information-schema}](#information-schema-information-schema)
-  - [Separating out into multiple tables {#separating-out-into-multiple-tables}](#separating-out-into-multiple-tables-separating-out-into-multiple-tables)
-- [Postgres {#postgres}](#postgres-postgres)
-  - [How Postgres works {#how-postgres-works}](#how-postgres-works-how-postgres-works)
-  - [Postbird {#postbird}](#postbird-postbird)
-  - [PgAdmin {#pgadmin}](#pgadmin-pgadmin)
-  - [psql {#psql}](#psql-psql)
-- [SQL Clauses {#sql-clauses}](#sql-clauses-sql-clauses)
-  - [Clause {#clause}](#clause-clause)
-  - [Statement {#statement}](#statement-statement)
-  - [Common data types {#common-data-types}](#common-data-types-common-data-types)
-  - [Additional Postgres data types {#additional-postgres-data-types}](#additional-postgres-data-types-additional-postgres-data-types)
-  - [Constraints {#constraints}](#constraints-constraints)
-  - [Result set {#result-set}](#result-set-result-set)
-    - [CREATE TABLE {#create-table}](#create-table-create-table)
-    - [ALTER TABLE {#alter-table}](#alter-table-alter-table)
-    - [INSERT INTO {#insert-into}](#insert-into-insert-into)
-    - [SELECT {#select}](#select-select)
-    - [WHERE {#where}](#where-where)
-    - [AS {#as}](#as-as)
-    - [SELECT DISTINCT {#select-distinct}](#select-distinct-select-distinct)
-    - [ORDER BY {#order-by}](#order-by-order-by)
-    - [UPDATE {#update}](#update-update)
-    - [DELETE FROM {#delete-from}](#delete-from-delete-from)
-    - [LIMIT {#limit}](#limit-limit)
-    - [CASE...WHEN {#case-when}](#casewhen-case-when)
+- [General Terminology](#general-terminology)
+  - [Database](#database)
+  - [Database vs spreadsheet](#database-vs-spreadsheet)
+  - [Database management system (DBMS)](#database-management-system-dbms)
+  - [Records](#records)
+  - [Columns](#columns)
+  - [Relational database](#relational-database)
+  - [Relational database management system (RDBMS)](#relational-database-management-system-rdbms)
+  - [Relational database structure](#relational-database-structure)
+  - [Commitment](#commitment)
+  - [ACID](#acid)
+  - [Relational database rules](#relational-database-rules)
+  - [Locking](#locking)
+  - [SQL](#sql)
+  - [Key](#key)
+  - [Primary key](#primary-key)
+  - [Composite primary key](#composite-primary-key)
+  - [Relationships](#relationships)
+  - [Stored procedures](#stored-procedures)
+  - [Unstructured data](#unstructured-data)
+  - [MySQL](#mysql)
+  - [PostgreSQL](#postgresql)
+  - [SQLite](#sqlite)
+  - [Benefits of using a dedicated database server](#benefits-of-using-a-dedicated-database-server)
+  - [OracleDB](#oracledb)
+  - [SQL Server](#sql-server)
+  - [NoSQL](#nosql)
+  - [Considerations when selecting a database](#considerations-when-selecting-a-database)
+  - [SQL vs. NoSQL databases](#sql-vs-nosql-databases)
+  - [Autonomous database](#autonomous-database)
+- [Database Design](#database-design)
+  - [Database schema](#database-schema)
+  - [To consider when designing a database](#to-consider-when-designing-a-database)
+  - [Popular database schema design software](#popular-database-schema-design-software)
+  - [Information schema](#information-schema)
+  - [Separating out into multiple tables](#separating-out-into-multiple-tables)
+- [Postgres](#postgres)
+  - [How Postgres works](#how-postgres-works)
+  - [Postbird](#postbird)
+  - [PgAdmin](#pgadmin)
+  - [psql](#psql)
+- [SQL Clauses](#sql-clauses)
+  - [Clause](#clause)
+  - [Statement](#statement)
+  - [Common data types](#common-data-types)
+  - [Additional Postgres data types](#additional-postgres-data-types)
+  - [Constraints](#constraints)
+  - [Result set](#result-set)
+    - [CREATE TABLE](#create-table)
+    - [ALTER TABLE](#alter-table)
+    - [INSERT INTO](#insert-into)
+    - [SELECT](#select)
+    - [WHERE](#where)
+    - [AS](#as)
+    - [SELECT DISTINCT](#select-distinct)
+    - [ORDER BY](#order-by)
+    - [UPDATE](#update)
+    - [DELETE FROM](#delete-from)
+    - [LIMIT](#limit)
+    - [CASE...WHEN](#casewhen)
   - [Postgres Clauses](#postgres-clauses)
     - [UNNEST](#unnest)
-- [`WHERE` Operators {#where-operators}](#where-operators-where-operators)
-  - [Arithmetic Operators {#arithmetic-operators}](#arithmetic-operators-arithmetic-operators)
-    - [LIKE {#like}](#like-like)
-    - [BETWEEN {#between}](#between-between)
-    - [AND {#and}](#and-and)
-    - [OR {#or}](#or-or)
-    - [IS NULL {#is-null}](#is-null-is-null)
-- [Aggregates {#aggregates}](#aggregates-aggregates)
-  - [Aggregates {#aggregates}](#aggregates-aggregates-1)
-    - [COUNT() {#count}](#count-count)
-    - [SUM() {#sum}](#sum-sum)
-    - [MAX() and MIN() {#max-and-min}](#max-and-min-max-and-min)
-    - [AVG() {#avg}](#avg-avg)
-    - [ROUND() {#round}](#round-round)
-    - [GROUP BY {#group-by}](#group-by-group-by)
-    - [HAVING {#having}](#having-having)
-  - [Column references {#column-references}](#column-references-column-references)
-- [Working with Multiple Tables {#working-with-multiple-tables}](#working-with-multiple-tables-working-with-multiple-tables)
-  - [Joining {#joining}](#joining-joining)
-  - [Foreign key {#foreign-key}](#foreign-key-foreign-key)
-  - [One to one database relationships {#one-to-one-database-relationships}](#one-to-one-database-relationships-one-to-one-database-relationships)
-  - [One to many database relationships {#one-to-many-database-relationships}](#one-to-many-database-relationships-one-to-many-database-relationships)
-  - [Many to many database relationships {#many-to-many-database-relationships}](#many-to-many-database-relationships-many-to-many-database-relationships)
-  - [Join table {#join-table}](#join-table-join-table)
-    - [JOIN {#join}](#join-join)
-    - [INNER JOIN {#inner-join}](#inner-join-inner-join)
-    - [LEFT JOIN {#left-join}](#left-join-left-join)
-    - [CROSS JOIN {#cross-join}](#cross-join-cross-join)
-    - [UNION {#union}](#union-union)
-    - [WITH {#with}](#with-with)
-    - [REFERENCES {#references}](#references-references)
-    - [SELECT among multiple tables {#select-among-multiple-tables}](#select-among-multiple-tables-select-among-multiple-tables)
-    - [UNIQUE {#unique}](#unique-unique)
-- [Resources {#resources}](#resources-resources)
+- [`WHERE` Operators](#where-operators)
+  - [Arithmetic Operators](#arithmetic-operators)
+    - [LIKE](#like)
+    - [BETWEEN](#between)
+    - [AND](#and)
+    - [OR](#or)
+    - [IS NULL](#is-null)
+- [Aggregates](#aggregates)
+  - [Aggregates](#aggregates-1)
+    - [COUNT()](#count)
+    - [SUM()](#sum)
+    - [MAX() and MIN()](#max-and-min)
+    - [AVG()](#avg)
+    - [ROUND()](#round)
+    - [GROUP BY](#group-by)
+    - [HAVING](#having)
+  - [Column references](#column-references)
+- [Working with Multiple Tables](#working-with-multiple-tables)
+  - [Joining](#joining)
+  - [Foreign key](#foreign-key)
+  - [One to one database relationships](#one-to-one-database-relationships)
+  - [One to many database relationships](#one-to-many-database-relationships)
+  - [Many to many database relationships](#many-to-many-database-relationships)
+  - [Join table](#join-table)
+    - [JOIN](#join)
+    - [INNER JOIN](#inner-join)
+    - [LEFT JOIN](#left-join)
+    - [CROSS JOIN](#cross-join)
+    - [UNION](#union)
+    - [WITH](#with)
+    - [REFERENCES](#references)
+    - [SELECT among multiple tables](#select-among-multiple-tables)
+    - [UNIQUE](#unique)
+- [Resources](#resources)
 
 
 
-# General Terminology {#general-terminology}
+# General Terminology
 
 
-## Database {#database}
+## Database
 
 
 
@@ -120,7 +120,7 @@
 * It’s usually structured in a way that makes data easily accessible
 
 
-## Database vs spreadsheet {#database-vs-spreadsheet}
+## Database vs spreadsheet
 
 
 
@@ -133,7 +133,7 @@
 * How much data can be stored	
 
 
-## Database management system (DBMS) {#database-management-system-dbms}
+## Database management system (DBMS)
 
 
 
@@ -144,7 +144,7 @@
 * Popular DBMS’s: MySQL, SQLite, PostgreSQL, Microsoft Access, Microsoft SQL Server, FileMaker Pro, Oracle Database, and dBase
 
 
-## Records {#records}
+## Records
 
 
 
@@ -152,7 +152,7 @@
 * Tables can have millions + records of data
 
 
-## Columns {#columns}
+## Columns
 
 
 
@@ -160,7 +160,7 @@
 * Each record usually has a value for each attribute. Data types are often specified
 
 
-## Relational database {#relational-database}
+## Relational database
 
 
 
@@ -172,7 +172,7 @@
 * Have been around since the 1970’s
 
 
-## Relational database management system (RDBMS) {#relational-database-management-system-rdbms}
+## Relational database management system (RDBMS)
 
 
 
@@ -180,7 +180,7 @@
 * Most RDBMS’s use SQL to access the database
 
 
-## Relational database structure {#relational-database-structure}
+## Relational database structure
 
 
 
@@ -188,14 +188,14 @@
 * This separation allows actions like renaming a database without renaming the tables stored within it
 
 
-## Commitment {#commitment}
+## Commitment
 
 
 
 * Making a permanent change to the database
 
 
-## ACID {#acid}
+## ACID
 
 
 
@@ -206,7 +206,7 @@
     * Durability: Makes sure changes are permanent after commitment
 
 
-## Relational database rules {#relational-database-rules}
+## Relational database rules
 
 
 
@@ -215,7 +215,7 @@
 * Concurrency rules: control policies for users/applications calling queries at the same time on the same database
 
 
-## Locking {#locking}
+## Locking
 
 
 
@@ -223,7 +223,7 @@
 * In some databases the whole table is locked (hurts performance) while in others just the record is locked.
 
 
-## SQL {#sql}
+## SQL
 
 
 
@@ -232,7 +232,7 @@
 * It’s based on relational algebra - is internally consistent. This helps for performance.
 
 
-## Key {#key}
+## Key
 
 
 
@@ -243,7 +243,7 @@
 * Many types of keys, including (_italics_ most common): Super, Candidate, _Primary_, _Foreign_, _Composite_, and _Secondary_
 
 
-## Primary key {#primary-key}
+## Primary key
 
 
 
@@ -253,7 +253,7 @@
 * Examples: SSN in an employee table
 
 
-## Composite primary key {#composite-primary-key}
+## Composite primary key
 
 
 
@@ -261,14 +261,14 @@
 * Example: Since multiple states can have the same city name, set state and city name as both primary keys
 
 
-## Relationships {#relationships}
+## Relationships
 
 
 
 * The way connected tables (in the schema) are dependent on one another
 
 
-## Stored procedures {#stored-procedures}
+## Stored procedures
 
 
 
@@ -276,7 +276,7 @@
 * This allows developers to not have to rewrite the functions themselves in each new application
 
 
-## Unstructured data {#unstructured-data}
+## Unstructured data
 
 
 
@@ -284,7 +284,7 @@
 * MongoDB says 80-90% of data generated + collected now is unstructured
 
 
-## MySQL {#mysql}
+## MySQL
 
 
 
@@ -294,7 +294,7 @@
 * Disadvantages: poor performance when scaling, open source development has fallen behind since Oracle took control of it, and lacks some advanced features
 
 
-## PostgreSQL {#postgresql}
+## PostgreSQL
 
 
 
@@ -305,7 +305,7 @@
 * Still used in industry - Apple, Instagram, Twitch, and Reddit use it
 
 
-## SQLite {#sqlite}
+## SQLite
 
 
 
@@ -314,7 +314,7 @@
 * Denoted by `.sqlite` files
 
 
-## Benefits of using a dedicated database server {#benefits-of-using-a-dedicated-database-server}
+## Benefits of using a dedicated database server
 
 
 
@@ -323,7 +323,7 @@
 * Faster retrieval
 
 
-## OracleDB {#oracledb}
+## OracleDB
 
 
 
@@ -331,7 +331,7 @@
 * It’s expensive
 
 
-## SQL Server {#sql-server}
+## SQL Server
 
 
 
@@ -340,7 +340,7 @@
 * An entry level version called Express is free. Scaling it can become very expensive
 
 
-## NoSQL {#nosql}
+## NoSQL
 
 
 
@@ -355,7 +355,7 @@
 * All databases fall within the format of SQL or NoSQL databases
 
 
-## Considerations when selecting a database {#considerations-when-selecting-a-database}
+## Considerations when selecting a database
 
 
 
@@ -377,7 +377,7 @@
     * What is the plan for unplanned downtime?
 
 
-## SQL vs. NoSQL databases {#sql-vs-nosql-databases}
+## SQL vs. NoSQL databases
 
 
 
@@ -386,7 +386,7 @@
         * Note: for some applications it’s ok to have eventual consistency. I.e. listings in a product catalog or on social media. However for critical business operations like cart checkouts, you need timely consistency.
 
 
-## Autonomous database {#autonomous-database}
+## Autonomous database
 
 
 
@@ -397,10 +397,10 @@
 * Also known as self-driving databases
 
 
-# Database Design {#database-design}
+# Database Design
 
 
-## Database schema {#database-schema}
+## Database schema
 
 
 
@@ -430,7 +430,7 @@
 
 
 
-## To consider when designing a database {#to-consider-when-designing-a-database}
+## To consider when designing a database
 
 
 
@@ -441,7 +441,7 @@
 * Identify and implement relationships between tables
 
 
-## Popular database schema design software {#popular-database-schema-design-software}
+## Popular database schema design software
 
 
 
@@ -450,7 +450,7 @@
 * [DB Designer](http://dbdesigner.net/) - online database schema design and modeling tool
 
 
-## Information schema {#information-schema}
+## Information schema
 
 
 
@@ -482,7 +482,7 @@
 
 
 
-## Separating out into multiple tables {#separating-out-into-multiple-tables}
+## Separating out into multiple tables
 
 
 
@@ -491,12 +491,12 @@
 * Example: Additional book info such as book rating, language, tag, and date of publication. If you put all this in the main `books` table, you might wind up with a lot of empty columns
 
 
-# Postgres {#postgres}
+# Postgres
 
 Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sqlite database locally
 
 
-## How Postgres works {#how-postgres-works}
+## How Postgres works
 
 
 
@@ -505,7 +505,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 * To run it locally, both a Postgres server and client need to be set up. See Codecademy for [details](https://www.codecademy.com/paths/design-databases-with-postgresql/tracks/what-is-a-database/modules/using-postgresql-on-your-own-computer/articles/installing-and-using-postgresql-locally)
 
 
-## Postbird {#postbird}
+## Postbird
 
 
 
@@ -513,14 +513,14 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 * Is open source
 
 
-## PgAdmin {#pgadmin}
+## PgAdmin
 
 
 
 * Another good open source GUI for Postgres
 
 
-## psql {#psql}
+## psql
 
 
 
@@ -530,17 +530,17 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 * Clicking on a database in the Postgress app for mac automatically opens the terminal with psql
 
 
-# SQL Clauses {#sql-clauses}
+# SQL Clauses
 
 
-## Clause {#clause}
+## Clause
 
 
 
 * A specific SQL command (i.e. `CREATE TABLE`)
 
 
-## Statement {#statement}
+## Statement
 
 
 
@@ -563,7 +563,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-## Common data types {#common-data-types}
+## Common data types
 
 
 
@@ -573,7 +573,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 * `real`: a decimal value
 
 
-## Additional Postgres data types {#additional-postgres-data-types}
+## Additional Postgres data types
 
 
 
@@ -585,7 +585,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 * `varchar(n)`: variable-length string that does not remove trailing blanks
 
 
-## Constraints {#constraints}
+## Constraints
 
 
 
@@ -613,14 +613,14 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-## Result set {#result-set}
+## Result set
 
 
 
 * A new table that’s always returned by a `SELECT` statement based on what is queried
 
 
-### CREATE TABLE {#create-table}
+### CREATE TABLE
 
 
 
@@ -638,7 +638,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### ALTER TABLE {#alter-table}
+### ALTER TABLE
 
 
 
@@ -658,7 +658,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### INSERT INTO {#insert-into}
+### INSERT INTO
 
 
 
@@ -691,7 +691,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### SELECT {#select}
+### SELECT
 
 
 
@@ -700,7 +700,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 * Get all columns: `SELECT * FROM celebs;`
 
 
-### WHERE {#where}
+### WHERE
 
 
 
@@ -715,7 +715,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### AS {#as}
+### AS
 
 
 
@@ -732,7 +732,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### SELECT DISTINCT {#select-distinct}
+### SELECT DISTINCT
 
 
 
@@ -746,7 +746,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### ORDER BY {#order-by}
+### ORDER BY
 
 
 
@@ -765,7 +765,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### UPDATE {#update}
+### UPDATE
 
 
 
@@ -782,7 +782,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### DELETE FROM {#delete-from}
+### DELETE FROM
 
 
 
@@ -804,7 +804,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### LIMIT {#limit}
+### LIMIT
 
 
 
@@ -821,7 +821,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### CASE...WHEN {#case-when}
+### CASE...WHEN
 
 
 
@@ -846,20 +846,20 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 ## Postgres Clauses
 ### UNNEST
 * Takes an array returned in a table and returns more rows for everything inside the array
-  * `SELECT UNNEST(ia._multiselect_values)` --> `{Other,(PCBA) Incorrect placement}` into two rows of `Other`, `(PCBA) Incorrect placement`
+  * `SELECT UNNEST(ia._multiselect_values)` --> `{}` into two rows of `Other`, `(PCBA) Incorrect placement`
 
 
-# `WHERE` Operators {#where-operators}
+# `WHERE` Operators
 
 
-## Arithmetic Operators {#arithmetic-operators}
+## Arithmetic Operators
 
 
 
 * =, !=, >, &lt;, &lt;=, and >= can be used
 
 
-### LIKE {#like}
+### LIKE
 
 
 
@@ -871,7 +871,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
     * `name LIKE 'A%'` matches any names that begin with the letter `A`
 
 
-### BETWEEN {#between}
+### BETWEEN
 
 
 
@@ -892,7 +892,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### AND {#and}
+### AND
 
 
 
@@ -908,7 +908,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### OR {#or}
+### OR
 
 
 
@@ -924,7 +924,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### IS NULL {#is-null}
+### IS NULL
 
 
 
@@ -932,17 +932,17 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 * `IS NOT NULL` can also be used
 
 
-# Aggregates {#aggregates}
+# Aggregates
 
 
-## Aggregates {#aggregates}
+## Aggregates
 
 
 
 * Calculations done on multiple rows of a table
 
 
-### COUNT() {#count}
+### COUNT()
 
 
 
@@ -966,7 +966,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### SUM() {#sum}
+### SUM()
 
 
 
@@ -980,7 +980,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### MAX() and MIN() {#max-and-min}
+### MAX() and MIN()
 
 
 
@@ -994,7 +994,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### AVG() {#avg}
+### AVG()
 
 
 
@@ -1008,7 +1008,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### ROUND() {#round}
+### ROUND()
 
 
 
@@ -1030,7 +1030,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### GROUP BY {#group-by}
+### GROUP BY
 
 
 
@@ -1098,7 +1098,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-### HAVING {#having}
+### HAVING
 
 
 
@@ -1160,7 +1160,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-## Column references {#column-references}
+## Column references
 
 
 
@@ -1190,17 +1190,17 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 
 
 
-# Working with Multiple Tables {#working-with-multiple-tables}
+# Working with Multiple Tables
 
 
-## Joining {#joining}
+## Joining
 
 
 
 * Combining different tables based on matching parameters to understand a bigger system
 
 
-## Foreign key {#foreign-key}
+## Foreign key
 
 
 
@@ -1209,7 +1209,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 * Example: To create a record in the `emails` table, there must be a record in the `people` table. However there need not be a record in the `emails` table when creating a new `people` record
 
 
-## One to one database relationships {#one-to-one-database-relationships}
+## One to one database relationships
 
 
 
@@ -1217,7 +1217,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 * Example: One person can have only one drivers licence ID assigned to them, and vice versa
 
 
-## One to many database relationships {#one-to-many-database-relationships}
+## One to many database relationships
 
 
 
@@ -1225,7 +1225,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 * Example: A `person` table and an `email` table. One person can have many emails
 
 
-## Many to many database relationships {#many-to-many-database-relationships}
+## Many to many database relationships
 
 
 
@@ -1235,7 +1235,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 * Example: a recipe can have many ingredients and a single ingredient belongs in many different recipes
 
 
-## Join table {#join-table}
+## Join table
 
 
 
@@ -1295,7 +1295,7 @@ recipies_ingredients_ingredient_id_fkey recipies_ingredients    ingredient_id
 	
 
 
-### JOIN {#join}
+### JOIN
 
 
 
@@ -1314,7 +1314,7 @@ recipies_ingredients_ingredient_id_fkey recipies_ingredients    ingredient_id
 
 
 
-### INNER JOIN {#inner-join}
+### INNER JOIN
 
 
 
@@ -1322,7 +1322,7 @@ recipies_ingredients_ingredient_id_fkey recipies_ingredients    ingredient_id
 * It results only in rows that match the `ON` condition
 
 
-### LEFT JOIN {#left-join}
+### LEFT JOIN
 
 
 
@@ -1349,7 +1349,7 @@ recipies_ingredients_ingredient_id_fkey recipies_ingredients    ingredient_id
 
 
 
-### CROSS JOIN {#cross-join}
+### CROSS JOIN
 
 
 
@@ -1383,7 +1383,7 @@ recipies_ingredients_ingredient_id_fkey recipies_ingredients    ingredient_id
 
 
 
-### UNION {#union}
+### UNION
 
 
 
@@ -1392,7 +1392,7 @@ recipies_ingredients_ingredient_id_fkey recipies_ingredients    ingredient_id
     2. Same data types in the same order
 
 
-### WITH {#with}
+### WITH
 
 
 
@@ -1415,7 +1415,7 @@ recipies_ingredients_ingredient_id_fkey recipies_ingredients    ingredient_id
 
 
 
-### REFERENCES {#references}
+### REFERENCES
 
 
 
@@ -1456,7 +1456,7 @@ recipies_ingredients_ingredient_id_fkey recipies_ingredients    ingredient_id
 
 
 
-### SELECT among multiple tables {#select-among-multiple-tables}
+### SELECT among multiple tables
 
 
 
@@ -1482,7 +1482,7 @@ recipies_ingredients_ingredient_id_fkey recipies_ingredients    ingredient_id
 
 
 
-### UNIQUE {#unique}
+### UNIQUE
 
 
 
@@ -1522,7 +1522,7 @@ recipies_ingredients_ingredient_id_fkey recipies_ingredients    ingredient_id
 
 
 
-# Resources {#resources}
+# Resources
 
 
 

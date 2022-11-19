@@ -35,82 +35,82 @@ Table of Contents
 
 
 - [Exercise Science](#exercise-science)
-- [General Terminology {#general-terminology}](#general-terminology-general-terminology)
-  - [Endurance {#endurance}](#endurance-endurance)
-  - [Fatigue in Ultrarunning {#fatigue-in-ultrarunning}](#fatigue-in-ultrarunning-fatigue-in-ultrarunning)
-  - [Human evolutionary advantages {#human-evolutionary-advantages}](#human-evolutionary-advantages-human-evolutionary-advantages)
-- [Molecular Energy Sources {#molecular-energy-sources}](#molecular-energy-sources-molecular-energy-sources)
-  - [Fat {#fat}](#fat-fat)
-  - [Carbohydrates {#carbohydrates}](#carbohydrates-carbohydrates)
-  - [Proteins {#proteins}](#proteins-proteins)
-  - [ATP {#atp}](#atp-atp)
-  - [Fat adaption {#fat-adaption}](#fat-adaption-fat-adaption)
-  - [2 ways to increase fat adaption {#2-ways-to-increase-fat-adaption}](#2-ways-to-increase-fat-adaption-2-ways-to-increase-fat-adaption)
-  - [2 benefits of fat adaption {#2-benefits-of-fat-adaption}](#2-benefits-of-fat-adaption-2-benefits-of-fat-adaption)
-- [Performance Tripod {#performance-tripod}](#performance-tripod-performance-tripod)
-  - [Movement Economy {#movement-economy}](#movement-economy-movement-economy)
-  - [Lactate Threshold {#lactate-threshold}](#lactate-threshold-lactate-threshold)
-  - [VO<sub>2 </sub>Max {#vo2-max}](#vosub2-submax-vo2-max)
-  - [VO<sub>2 </sub>Max misunderstandings {#vo2-max-misunderstandings}](#vosub2-submax-misunderstandings-vo2-max-misunderstandings)
-- [Metabolic Terminology {#metabolic-terminology}](#metabolic-terminology-metabolic-terminology)
-  - [Metabolism {#metabolism}](#metabolism-metabolism)
-  - [Mitochondria {#mitochondria}](#mitochondria-mitochondria)
-  - [Two metabolic pathways {#two-metabolic-pathways}](#two-metabolic-pathways-two-metabolic-pathways)
-  - [Aerobic metabolism {#aerobic-metabolism}](#aerobic-metabolism-aerobic-metabolism)
-  - [Anaerobic metabolism (aka glycolysis) {#anaerobic-metabolism-aka-glycolysis}](#anaerobic-metabolism-aka-glycolysis-anaerobic-metabolism-aka-glycolysis)
-  - [Pyruvate {#pyruvate}](#pyruvate-pyruvate)
-  - [Lactic acid {#lactic-acid}](#lactic-acid-lactic-acid)
-  - [Aerobic vs. anaerobic capacity {#aerobic-vs-anaerobic-capacity}](#aerobic-vs-anaerobic-capacity-aerobic-vs-anaerobic-capacity)
-  - [Endurance (from a metabolic standpoint) {#endurance-from-a-metabolic-standpoint}](#endurance-from-a-metabolic-standpoint-endurance-from-a-metabolic-standpoint)
-  - [Aerobic threshold (AeT) {#aerobic-threshold-aet}](#aerobic-threshold-aet-aerobic-threshold-aet)
-  - [Lactate threshold (LT) {#lactate-threshold-lt}](#lactate-threshold-lt-lactate-threshold-lt)
-  - [Slow twitch vs. fast twitch muscles {#slow-twitch-vs-fast-twitch-muscles}](#slow-twitch-vs-fast-twitch-muscles-slow-twitch-vs-fast-twitch-muscles)
-- [Increasing the Lactate Threshold {#increasing-the-lactate-threshold}](#increasing-the-lactate-threshold-increasing-the-lactate-threshold)
-  - [Two ways to raise the Lactate Threshold {#two-ways-to-raise-the-lactate-threshold}](#two-ways-to-raise-the-lactate-threshold-two-ways-to-raise-the-lactate-threshold)
-  - [Reducing Lactate Production {#reducing-lactate-production}](#reducing-lactate-production-reducing-lactate-production)
-  - [Increasing the rate of lactate removal {#increasing-the-rate-of-lactate-removal}](#increasing-the-rate-of-lactate-removal-increasing-the-rate-of-lactate-removal)
-  - [Aerobic deficiency syndrome {#aerobic-deficiency-syndrome}](#aerobic-deficiency-syndrome-aerobic-deficiency-syndrome)
-- [Intensity Zones {#intensity-zones}](#intensity-zones-intensity-zones)
-  - [Intensity Zone Model {#intensity-zone-model}](#intensity-zone-model-intensity-zone-model)
-  - [Heart rate vs. intensity {#heart-rate-vs-intensity}](#heart-rate-vs-intensity-heart-rate-vs-intensity)
-  - [Summary of the Zones {#summary-of-the-zones}](#summary-of-the-zones-summary-of-the-zones)
-  - [Recovery Zone {#recovery-zone}](#recovery-zone-recovery-zone)
-  - [Zone 1 {#zone-1}](#zone-1-zone-1)
-  - [Zone 2 {#zone-2}](#zone-2-zone-2)
-  - [Zone 3 {#zone-3}](#zone-3-zone-3)
-  - [Zone 4 {#zone-4}](#zone-4-zone-4)
-  - [Zone 5 {#zone-5}](#zone-5-zone-5)
-  - [Ten percent test {#ten-percent-test}](#ten-percent-test-ten-percent-test)
-  - [Zone training and elite athletes {#zone-training-and-elite-athletes}](#zone-training-and-elite-athletes-zone-training-and-elite-athletes)
-- [Recovery Tips {#recovery-tips}](#recovery-tips-recovery-tips)
-  - [Diet post workout {#diet-post-workout}](#diet-post-workout-diet-post-workout)
-  - [Sleep {#sleep}](#sleep-sleep)
-  - [Self massage {#self-massage}](#self-massage-self-massage)
-- [References {#references}](#references-references)
+- [General Terminology](#general-terminology)
+  - [Endurance](#endurance)
+  - [Fatigue in Ultrarunning](#fatigue-in-ultrarunning)
+  - [Human evolutionary advantages](#human-evolutionary-advantages)
+- [Molecular Energy Sources](#molecular-energy-sources)
+  - [Fat](#fat)
+  - [Carbohydrates](#carbohydrates)
+  - [Proteins](#proteins)
+  - [ATP](#atp)
+  - [Fat adaption](#fat-adaption)
+  - [2 ways to increase fat adaption](#2-ways-to-increase-fat-adaption)
+  - [2 benefits of fat adaption](#2-benefits-of-fat-adaption)
+- [Performance Tripod](#performance-tripod)
+  - [Movement Economy](#movement-economy)
+  - [Lactate Threshold](#lactate-threshold)
+  - [VO<sub>2 </sub>Max](#vosub2-submax)
+  - [VO<sub>2 </sub>Max misunderstandings](#vosub2-submax-misunderstandings)
+- [Metabolic Terminology](#metabolic-terminology)
+  - [Metabolism](#metabolism)
+  - [Mitochondria](#mitochondria)
+  - [Two metabolic pathways](#two-metabolic-pathways)
+  - [Aerobic metabolism](#aerobic-metabolism)
+  - [Anaerobic metabolism (aka glycolysis)](#anaerobic-metabolism-aka-glycolysis)
+  - [Pyruvate](#pyruvate)
+  - [Lactic acid](#lactic-acid)
+  - [Aerobic vs. anaerobic capacity](#aerobic-vs-anaerobic-capacity)
+  - [Endurance (from a metabolic standpoint)](#endurance-from-a-metabolic-standpoint)
+  - [Aerobic threshold (AeT)](#aerobic-threshold-aet)
+  - [Lactate threshold (LT)](#lactate-threshold-lt)
+  - [Slow twitch vs. fast twitch muscles](#slow-twitch-vs-fast-twitch-muscles)
+- [Increasing the Lactate Threshold](#increasing-the-lactate-threshold)
+  - [Two ways to raise the Lactate Threshold](#two-ways-to-raise-the-lactate-threshold)
+  - [Reducing Lactate Production](#reducing-lactate-production)
+  - [Increasing the rate of lactate removal](#increasing-the-rate-of-lactate-removal)
+  - [Aerobic deficiency syndrome](#aerobic-deficiency-syndrome)
+- [Intensity Zones](#intensity-zones)
+  - [Intensity Zone Model](#intensity-zone-model)
+  - [Heart rate vs. intensity](#heart-rate-vs-intensity)
+  - [Summary of the Zones](#summary-of-the-zones)
+  - [Recovery Zone](#recovery-zone)
+  - [Zone 1](#zone-1)
+  - [Zone 2](#zone-2)
+  - [Zone 3](#zone-3)
+  - [Zone 4](#zone-4)
+  - [Zone 5](#zone-5)
+  - [Ten percent test](#ten-percent-test)
+  - [Zone training and elite athletes](#zone-training-and-elite-athletes)
+- [Recovery Tips](#recovery-tips)
+  - [Diet post workout](#diet-post-workout)
+  - [Sleep](#sleep)
+  - [Self massage](#self-massage)
+- [References](#references)
 
 
 
 continue on [Reducing Lactate Production](#reducing-lactate-production) p. 45
 
 
-## General Terminology {#general-terminology}
+## General Terminology
 
 
-### Endurance {#endurance}
+### Endurance
 
 
 
 * The maximum sustainable work rate an athlete can keep for the duration of an event before fatigue starts to slow the work rate
 
 
-### Fatigue in Ultrarunning {#fatigue-in-ultrarunning}
+### Fatigue in Ultrarunning
 
 
 
 * Reduced stride length and/or slower stride rate
 
 
-### Human evolutionary advantages {#human-evolutionary-advantages}
+### Human evolutionary advantages
 
 
 
@@ -120,10 +120,10 @@ continue on [Reducing Lactate Production](#reducing-lactate-production) p. 45
     * Good for hunting. Run prey to exhaustion
 
 
-## Molecular Energy Sources {#molecular-energy-sources}
+## Molecular Energy Sources
 
 
-### Fat {#fat}
+### Fat
 
 
 
@@ -131,7 +131,7 @@ continue on [Reducing Lactate Production](#reducing-lactate-production) p. 45
 * Even a lean endurance athlete can carry 100,000 calories in accessible fat
 
 
-### Carbohydrates {#carbohydrates}
+### Carbohydrates
 
 
 
@@ -140,7 +140,7 @@ continue on [Reducing Lactate Production](#reducing-lactate-production) p. 45
 * Contain about half the calories per gram as fat
 
 
-### Proteins {#proteins}
+### Proteins
 
 
 
@@ -149,7 +149,7 @@ continue on [Reducing Lactate Production](#reducing-lactate-production) p. 45
 * Used for fuel only as a last resort
 
 
-### ATP {#atp}
+### ATP
 
 
 
@@ -159,7 +159,7 @@ continue on [Reducing Lactate Production](#reducing-lactate-production) p. 45
 * Endurance athletes go through a high turnover of ATP
 
 
-### Fat adaption {#fat-adaption}
+### Fat adaption
 
 
 
@@ -167,7 +167,7 @@ continue on [Reducing Lactate Production](#reducing-lactate-production) p. 45
 * It’s highly efficient because of how many calories we carry in fat. The analogy is you want to be sipping from your glycogen stores while guzzling from your fat stores
 
 
-### 2 ways to increase fat adaption {#2-ways-to-increase-fat-adaption}
+### 2 ways to increase fat adaption
 
 
 
@@ -175,7 +175,7 @@ continue on [Reducing Lactate Production](#reducing-lactate-production) p. 45
 * Consume a diet with fewer carb calories and more fat. Note if you train more than 12 hrs per week this is less effective because the training volume is providing ample fat adaption
 
 
-### 2 benefits of fat adaption {#2-benefits-of-fat-adaption}
+### 2 benefits of fat adaption
 
 
 
@@ -183,12 +183,12 @@ continue on [Reducing Lactate Production](#reducing-lactate-production) p. 45
 * (Much bigger benefit) reduced lactate production and as such lower perceived exertion. You will perform better.
 
 
-## Performance Tripod {#performance-tripod}
+## Performance Tripod
 
 Consists of the following 3 components:
 
 
-### Movement Economy {#movement-economy}
+### Movement Economy
 
 
 
@@ -196,7 +196,7 @@ Consists of the following 3 components:
 * Consists of a mechanical (technique) component and a metabolic component
 
 
-### Lactate Threshold {#lactate-threshold}
+### Lactate Threshold
 
 
 
@@ -204,7 +204,7 @@ Consists of the following 3 components:
 * The pace at LT is the best way to predict endurance performance
 
 
-### VO<sub>2 </sub>Max {#vo2-max}
+### VO<sub>2 </sub>Max
 
 
 
@@ -224,7 +224,7 @@ Consists of the following 3 components:
 * Note: a lot of it is genetic and it’s also the least correlated to ability
 
 
-### VO<sub>2 </sub>Max misunderstandings {#vo2-max-misunderstandings}
+### VO<sub>2 </sub>Max misunderstandings
 
 
 
@@ -233,10 +233,10 @@ Consists of the following 3 components:
 * Note: a lot of these misunderstandings are because it’s hard to find highly trained athletes to forgo their original trainings for studies; as such they’re often done on untrained athletes and VO2 max responds very well to first wave high intensity training in untrained athletes
 
 
-## Metabolic Terminology {#metabolic-terminology}
+## Metabolic Terminology
 
 
-### Metabolism {#metabolism}
+### Metabolism
 
 
 
@@ -252,14 +252,14 @@ Consists of the following 3 components:
 
 
 
-### Mitochondria {#mitochondria}
+### Mitochondria
 
 
 
 * Small organelles in every cell (except for blood cells): they are factories that produce ATP with the help of oxygen
 
 
-### Two metabolic pathways {#two-metabolic-pathways}
+### Two metabolic pathways
 
 
 
@@ -270,7 +270,7 @@ Consists of the following 3 components:
 * Note: each has a maximum capacity; training can increase that maximum
 
 
-### Aerobic metabolism {#aerobic-metabolism}
+### Aerobic metabolism
 
 
 
@@ -279,7 +279,7 @@ Consists of the following 3 components:
 * Can also use protein but protein contributes much less
 
 
-### Anaerobic metabolism (aka glycolysis) {#anaerobic-metabolism-aka-glycolysis}
+### Anaerobic metabolism (aka glycolysis)
 
 
 
@@ -292,7 +292,7 @@ Consists of the following 3 components:
 * Results in the creation of a pyruvate molecule with two ATP’s on it; the ATP molecules are readily available as energy
 
 
-### Pyruvate {#pyruvate}
+### Pyruvate
 
 
 
@@ -301,7 +301,7 @@ Consists of the following 3 components:
     2. Can sit outside the mitochondria and produce lactic acid → BAD
 
 
-### Lactic acid {#lactic-acid}
+### Lactic acid
 
 
 
@@ -309,7 +309,7 @@ Consists of the following 3 components:
 * The hydrogen Ion upsets the acid/base balance in the cell, causing a temporary reduction of glycolytic ATP production → fatigue
 
 
-### Aerobic vs. anaerobic capacity {#aerobic-vs-anaerobic-capacity}
+### Aerobic vs. anaerobic capacity
 
 
 
@@ -318,7 +318,7 @@ Consists of the following 3 components:
 * When anaerobic, the athlete does not have enough aerobic capacity to move all the pyruvate (made during glycolysis) into the mitochondria → lactic acid builds up
 
 
-### Endurance (from a metabolic standpoint) {#endurance-from-a-metabolic-standpoint}
+### Endurance (from a metabolic standpoint)
 
 
 
@@ -326,7 +326,7 @@ Consists of the following 3 components:
 * The end goal of endurance is to encourage that pyruvate molecule to go into the mitochondria and undergo aerobic metabolism
 
 
-### Aerobic threshold (AeT) {#aerobic-threshold-aet}
+### Aerobic threshold (AeT)
 
 
 
@@ -337,7 +337,7 @@ Consists of the following 3 components:
 * Is the single most important measure of a person’s aerobic performancep
 
 
-### Lactate threshold (LT) {#lactate-threshold-lt}
+### Lactate threshold (LT)
 
 
 
@@ -347,7 +347,7 @@ Consists of the following 3 components:
 * Is highly trainable
 
 
-### Slow twitch vs. fast twitch muscles {#slow-twitch-vs-fast-twitch-muscles}
+### Slow twitch vs. fast twitch muscles
 
 
 
@@ -357,10 +357,10 @@ Consists of the following 3 components:
     * They require primarily on glycolysis, which produces a lot more pyruvate
 
 
-## Increasing the Lactate Threshold {#increasing-the-lactate-threshold}
+## Increasing the Lactate Threshold
 
 
-### Two ways to raise the Lactate Threshold {#two-ways-to-raise-the-lactate-threshold}
+### Two ways to raise the Lactate Threshold
 
 
 
@@ -369,7 +369,7 @@ Consists of the following 3 components:
 * Note: these require different forms of training that are sometimes mutually exclusive
 
 
-### Reducing Lactate Production {#reducing-lactate-production}
+### Reducing Lactate Production
 
 
 
@@ -378,7 +378,7 @@ Consists of the following 3 components:
 * This is because it depletes glycogen in slow twitch muscles
 
 
-### Increasing the rate of lactate removal {#increasing-the-rate-of-lactate-removal}
+### Increasing the rate of lactate removal
 
 
 
@@ -388,17 +388,17 @@ Consists of the following 3 components:
 * However less of this high intensity training is needed than if often assumed
 
 
-### Aerobic deficiency syndrome {#aerobic-deficiency-syndrome}
+### Aerobic deficiency syndrome
 
 
 
 * When high intensity training methods are overused which results in a low Aerobic Threshold (AeT) because their aerobic metabolism is undertrained
 
 
-## Intensity Zones {#intensity-zones}
+## Intensity Zones
 
 
-### Intensity Zone Model {#intensity-zone-model}
+### Intensity Zone Model
 
 
 
@@ -408,7 +408,7 @@ Consists of the following 3 components:
 * You may see other systems ranging from 3 zones to 7 zones
 
 
-### Heart rate vs. intensity {#heart-rate-vs-intensity}
+### Heart rate vs. intensity
 
 
 
@@ -416,7 +416,7 @@ Consists of the following 3 components:
 * Where you are in recovery state affects this relationship
 
 
-### Summary of the Zones {#summary-of-the-zones}
+### Summary of the Zones
 
 
 
@@ -427,7 +427,7 @@ Consists of the following 3 components:
 
 
 
-### Recovery Zone {#recovery-zone}
+### Recovery Zone
 
 
 
@@ -436,7 +436,7 @@ Consists of the following 3 components:
 * Good examples: light ride, swim, walk, yoga, foam roll
 
 
-### Zone 1 {#zone-1}
+### Zone 1
 
 
 
@@ -444,7 +444,7 @@ Consists of the following 3 components:
 * Should account for 50-70% of aerobic training for mountain athletes
 
 
-### Zone 2 {#zone-2}
+### Zone 2
 
 
 
@@ -454,7 +454,7 @@ Consists of the following 3 components:
 * Note: if you have a high AeT (in good shape) you should only spend 10-15% of weekly workouts in this zone. More training should be in zone 1, as to not risk overtraining
 
 
-### Zone 3 {#zone-3}
+### Zone 3
 
 
 
@@ -466,7 +466,7 @@ Consists of the following 3 components:
 * Should be no more than 10% of annual training volume
 
 
-### Zone 4 {#zone-4}
+### Zone 4
 
 
 
@@ -474,7 +474,7 @@ Consists of the following 3 components:
 * Requires your muscles being able to handle it. If your legs are screaming at you but HR tops out at zone 3 levels, muscles need to be improved before you can get the full benefit of a zone 4 workout
 
 
-### Zone 5 {#zone-5}
+### Zone 5
 
 
 
@@ -485,7 +485,7 @@ Consists of the following 3 components:
 * There’s an injury risk here and it’s important to have a good strength base along with the above mentioned interval rest
 
 
-### Ten percent test {#ten-percent-test}
+### Ten percent test
 
 
 
@@ -493,17 +493,17 @@ Consists of the following 3 components:
 * Note: if you’re higher than 10%, you can improve a lot of your aerobic base with Z1 and Z2 workouts and not do Z3 yet. If you’re lower than 10%, Z2 work can be substituted with Z3
 
 
-### Zone training and elite athletes {#zone-training-and-elite-athletes}
+### Zone training and elite athletes
 
 
 
 * A study by Stephen Seiler shows that elite endurance athletes tend to train 80% of the time below the AeT, 6-8% between the AeT and LT, and 12-14% above the LT.
 
 
-## Recovery Tips {#recovery-tips}
+## Recovery Tips
 
 
-### Diet post workout {#diet-post-workout}
+### Diet post workout
 
 
 
@@ -513,14 +513,14 @@ Consists of the following 3 components:
 * If this window is missed, recovery can be delayed by up to 2 days
 
 
-### Sleep {#sleep}
+### Sleep
 
 
 
 * REM sleep (happens in bursts of 90 to 120 min) has a massive effect on HGH (Human Growth Hormone) production and therefore overall recovery + energy
 
 
-### Self massage {#self-massage}
+### Self massage
 
 
 
@@ -529,7 +529,7 @@ Consists of the following 3 components:
 * The Roll Model by Jill Miller is a good guide on rolling massages
 
 
-## References {#references}
+## References
 
 
 
