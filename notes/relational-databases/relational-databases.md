@@ -1,13 +1,4 @@
-<!-- Output copied to clipboard! -->
-
-<!-- You have some errors, warnings, or alerts. If you are using reckless mode, turn it off to see inline alerts.
-* ERRORs: 0
-* WARNINGs: 0
-* ALERTS: 2 -->
-
-
 # Relational Databases
-
 
 - [Relational Databases](#relational-databases)
 - [General Terminology](#general-terminology)
