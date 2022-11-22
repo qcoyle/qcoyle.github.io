@@ -411,10 +411,6 @@
 * Example for a book inventory database:
     * Note: 1 and * denote a one to many relationship
 
-    
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 ![alt_text](images/image1.png "image_tooltip")
 
@@ -1238,9 +1234,7 @@ Note: See [Node-SQLite](https://quinncoyle.com/notes/node-sqlite/) to use an sql
 * After creating a join table, you can add records to it to establish necessary relationships
 * Schema example:
 
-    
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image2.png "image_tooltip")

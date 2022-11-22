@@ -25,7 +25,7 @@ Table of contents:
     - [S-N Curve](#s-n-curve)
     - [Infinite life](#infinite-life)
     - [Notch](#notch)
-    - [K<sub>t</sub>](#ksubtsub)
+    - [Kt](#kt)
   - [Resources](#resources)
 
 

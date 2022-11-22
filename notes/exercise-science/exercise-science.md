@@ -1,96 +1,62 @@
-<!-----
-
-You have some errors, warnings, or alerts. If you are using reckless mode, turn it off to see inline alerts.
-* ERRORs: 0
-* WARNINGs: 1
-* ALERTS: 3
-
-Conversion time: 2.202 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β33
-* Mon Oct 31 2022 23:29:09 GMT-0700 (PDT)
-* Source doc: Exercise Science
-
-WARNING:
-You have some equations: look for ">>>>>  gd2md-html alert:  equation..." in output.
-
-* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
-
------>
-
-
-## Exercise Science
+# Exercise Science
 
 Table of Contents
 
 
 - [Exercise Science](#exercise-science)
-- [General Terminology](#general-terminology)
-  - [Endurance](#endurance)
-  - [Fatigue in Ultrarunning](#fatigue-in-ultrarunning)
-  - [Human evolutionary advantages](#human-evolutionary-advantages)
-- [Molecular Energy Sources](#molecular-energy-sources)
-  - [Fat](#fat)
-  - [Carbohydrates](#carbohydrates)
-  - [Proteins](#proteins)
-  - [ATP](#atp)
-  - [Fat adaption](#fat-adaption)
-  - [2 ways to increase fat adaption](#2-ways-to-increase-fat-adaption)
-  - [2 benefits of fat adaption](#2-benefits-of-fat-adaption)
-- [Performance Tripod](#performance-tripod)
-  - [Movement Economy](#movement-economy)
-  - [Lactate Threshold](#lactate-threshold)
-  - [VO<sub>2 </sub>Max](#vosub2-submax)
-  - [VO<sub>2 </sub>Max misunderstandings](#vosub2-submax-misunderstandings)
-- [Metabolic Terminology](#metabolic-terminology)
-  - [Metabolism](#metabolism)
-  - [Mitochondria](#mitochondria)
-  - [Two metabolic pathways](#two-metabolic-pathways)
-  - [Aerobic metabolism](#aerobic-metabolism)
-  - [Anaerobic metabolism (aka glycolysis)](#anaerobic-metabolism-aka-glycolysis)
-  - [Pyruvate](#pyruvate)
-  - [Lactic acid](#lactic-acid)
-  - [Aerobic vs. anaerobic capacity](#aerobic-vs-anaerobic-capacity)
-  - [Endurance (from a metabolic standpoint)](#endurance-from-a-metabolic-standpoint)
-  - [Aerobic threshold (AeT)](#aerobic-threshold-aet)
-  - [Lactate threshold (LT)](#lactate-threshold-lt)
-  - [Slow twitch vs. fast twitch muscles](#slow-twitch-vs-fast-twitch-muscles)
-- [Increasing the Lactate Threshold](#increasing-the-lactate-threshold)
-  - [Two ways to raise the Lactate Threshold](#two-ways-to-raise-the-lactate-threshold)
-  - [Reducing Lactate Production](#reducing-lactate-production)
-  - [Increasing the rate of lactate removal](#increasing-the-rate-of-lactate-removal)
-  - [Aerobic deficiency syndrome](#aerobic-deficiency-syndrome)
-- [Intensity Zones](#intensity-zones)
-  - [Intensity Zone Model](#intensity-zone-model)
-  - [Heart rate vs. intensity](#heart-rate-vs-intensity)
-  - [Summary of the Zones](#summary-of-the-zones)
-  - [Recovery Zone](#recovery-zone)
-  - [Zone 1](#zone-1)
-  - [Zone 2](#zone-2)
-  - [Zone 3](#zone-3)
-  - [Zone 4](#zone-4)
-  - [Zone 5](#zone-5)
-  - [Ten percent test](#ten-percent-test)
-  - [Zone training and elite athletes](#zone-training-and-elite-athletes)
-- [Recovery Tips](#recovery-tips)
-  - [Diet post workout](#diet-post-workout)
-  - [Sleep](#sleep)
-  - [Self massage](#self-massage)
-- [References](#references)
+  - [General Terminology](#general-terminology)
+    - [Endurance](#endurance)
+    - [Fatigue in Ultrarunning](#fatigue-in-ultrarunning)
+    - [Human evolutionary advantages](#human-evolutionary-advantages)
+  - [Molecular Energy Sources](#molecular-energy-sources)
+    - [Fat](#fat)
+    - [Carbohydrates](#carbohydrates)
+    - [Proteins](#proteins)
+    - [ATP](#atp)
+    - [Fat adaption](#fat-adaption)
+    - [2 ways to increase fat adaption](#2-ways-to-increase-fat-adaption)
+    - [2 benefits of fat adaption](#2-benefits-of-fat-adaption)
+  - [Performance Tripod](#performance-tripod)
+    - [Movement Economy](#movement-economy)
+    - [Lactate Threshold](#lactate-threshold)
+    - [VO2 Max](#vo2-max)
+    - [VO2 Max misunderstandings](#vo2-max-misunderstandings)
+  - [Metabolic Terminology](#metabolic-terminology)
+    - [Metabolism](#metabolism)
+    - [Mitochondria](#mitochondria)
+    - [Two metabolic pathways](#two-metabolic-pathways)
+    - [Aerobic metabolism](#aerobic-metabolism)
+    - [Anaerobic metabolism (aka glycolysis)](#anaerobic-metabolism-aka-glycolysis)
+    - [Pyruvate](#pyruvate)
+    - [Lactic acid](#lactic-acid)
+    - [Aerobic vs. anaerobic capacity](#aerobic-vs-anaerobic-capacity)
+    - [Endurance (from a metabolic standpoint)](#endurance-from-a-metabolic-standpoint)
+    - [Aerobic threshold (AeT)](#aerobic-threshold-aet)
+    - [Lactate threshold (LT)](#lactate-threshold-lt)
+    - [Slow twitch vs. fast twitch muscles](#slow-twitch-vs-fast-twitch-muscles)
+  - [Increasing the Lactate Threshold](#increasing-the-lactate-threshold)
+    - [Two ways to raise the Lactate Threshold](#two-ways-to-raise-the-lactate-threshold)
+    - [Reducing Lactate Production](#reducing-lactate-production)
+    - [Increasing the rate of lactate removal](#increasing-the-rate-of-lactate-removal)
+    - [Aerobic deficiency syndrome](#aerobic-deficiency-syndrome)
+  - [Intensity Zones](#intensity-zones)
+    - [Intensity Zone Model](#intensity-zone-model)
+    - [Heart rate vs. intensity](#heart-rate-vs-intensity)
+    - [Summary of the Zones](#summary-of-the-zones)
+    - [Recovery Zone](#recovery-zone)
+    - [Zone 1](#zone-1)
+    - [Zone 2](#zone-2)
+    - [Zone 3](#zone-3)
+    - [Zone 4](#zone-4)
+    - [Zone 5](#zone-5)
+    - [Ten percent test](#ten-percent-test)
+    - [Zone training and elite athletes](#zone-training-and-elite-athletes)
+  - [Recovery Tips](#recovery-tips)
+    - [Diet post workout](#diet-post-workout)
+    - [Sleep](#sleep)
+    - [Self massage](#self-massage)
+  - [References](#references)
 
-
-
-continue on [Reducing Lactate Production](#reducing-lactate-production) p. 45
 
 
 ## General Terminology
@@ -211,8 +177,8 @@ Consists of the following 3 components:
 * Maximum volume of oxygen you can take up and use during exercise: the upper limit of your aerobic power
 * It can’t be sustained for long
 * Units: 
+$$ \frac{mLO_2/minute}{body\ weight (kg)} = \frac{mL/kg}{min} $$
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 * Dependent on:
@@ -243,12 +209,6 @@ Consists of the following 3 components:
 * Biochemical process of breaking down molecular bonds from fats/sugars to provide the energy needed to create ATP
 
     
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
 
 
 
@@ -420,10 +380,9 @@ Consists of the following 3 components:
 
 
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image2.jpg "image_tooltip")
+![alt_text](images/image2.png "image_tooltip")
 
 
 
