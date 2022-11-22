@@ -11,22 +11,21 @@ Review of terms
 Table of contents:
 
 
-- [Mechanical Engineering Fundamentals](#mechanical-engineering-fundamentals)
-  - [Structures](#structures)
-    - [Strut](#strut)
-  - [Fasteners](#fasteners)
-    - [SHCS](#shcs)
-    - [Micro D Jackpost](#micro-d-jackpost)
-    - [Micro D Jackscrew](#micro-d-jackscrew)
-    - [Types of threadlockers](#types-of-threadlockers)
-    - [Dial indicator torque wrench](#dial-indicator-torque-wrench)
-  - [Fatigue](#fatigue)
-    - [Fatigue](#fatigue-1)
-    - [S-N Curve](#s-n-curve)
-    - [Infinite life](#infinite-life)
-    - [Notch](#notch)
-    - [Kt](#kt)
-  - [Resources](#resources)
+- [Structures](#structures)
+  - [Strut](#strut)
+- [Fasteners](#fasteners)
+  - [SHCS](#shcs)
+  - [Micro D Jackpost](#micro-d-jackpost)
+  - [Micro D Jackscrew](#micro-d-jackscrew)
+  - [Types of threadlockers](#types-of-threadlockers)
+  - [Dial indicator torque wrench](#dial-indicator-torque-wrench)
+- [Fatigue](#fatigue)
+  - [Fatigue](#fatigue-1)
+  - [S-N Curve](#s-n-curve)
+  - [Infinite life](#infinite-life)
+  - [Notch](#notch)
+  - [Kt](#kt)
+- [Resources](#resources)
 
 
 ## Structures
